@@ -107,6 +107,8 @@ $('.tagsinput#tags').tagsInput({
   width: '300px', // standard option is 'auto'
   height: '100px', // standard option is 'auto'
   autocomplete: { option: value, option: value},
+  autocomplete_query: 'q', // the query param to send with ajax request (Pixabay jQuery-autoComplete only)
+  autocomplete_key: 'skill', // the key to extract from the ajax response (Pixabay jQuery-autoComplete only)
   hide: true,
   delimiter: [',',';'], // or a string with a single delimiter
   unique: true,
